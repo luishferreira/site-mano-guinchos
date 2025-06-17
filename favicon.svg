@@ -1,0 +1,24 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo Circular -->
+  <circle cx="32" cy="32" r="30" fill="#2D3748"/> 
+  <!-- Silhueta do Caminhão de Guincho -->
+  <g stroke="#FBBF24" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Chassi e Rodas -->
+    <path d="M8 44H44V40C44 38.8954 43.1046 38 42 38H18C16.8954 38 16 38.8954 16 40V44Z" />
+    <circle cx="16" cy="44" r="5" fill="#4A5568" />
+    <circle cx="36" cy="44" r="5" fill="#4A5568" />
+    
+    <!-- Cabine -->
+    <path d="M44 44V28H32L26 38H18" />
+    <rect x="26" y="28" width="18" height="10" />
+
+    <!-- Braço do Guincho -->
+    <path d="M12 38L24 22H50" />
+    <!-- Gancho -->
+    <path d="M50 22V28L56 28" />
+    <path d="M50 34C52.2091 34 54 32.2091 54 30C54 27.7909 52.2091 26 50 26" />
+  </g>
+  <!-- Detalhe da Roda (Pequeno Círculo Branco) -->
+  <circle cx="16" cy="44" r="1.5" fill="#CBD5E0" />
+  <circle cx="36"cy="44" r="1.5" fill="#CBD5E0" />
+</svg>
