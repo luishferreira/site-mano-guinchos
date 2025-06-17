@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título Otimizado para Porto Alegre e Região -->
+    <title>Mano Guinchos: Guincho 24h em Porto Alegre e Região Metropolitana | Atendimento Rápido</title>
+    <!-- Meta Descrição Otimizada -->
+    <meta name="description" content="Mano Guinchos: Seu guincho 24h em Porto Alegre e Região Metropolitana. Atendimento rápido para carros e motos, com base na Zona Norte. Socorro ágil e confiável. Ligue já!">
+    <!-- Meta Keywords Otimizadas -->
+    <meta name="keywords" content="guincho porto alegre, reboque porto alegre, guincho 24h poa, mano guinchos, socorro veicular poa, guincho regiao metropolitana rs, guincho zona norte poa, guincho rapido porto alegre">
+    <!-- Canonical Tag com seu domínio -->
+    <link rel="canonical" href="https://www.manoguinchos.com.br/">
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"> <!-- Coloque seu favicon.ico na raiz do site -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://placehold.co/1200x800/1E293B/F8FAFC?text=Mano+Guinchos+Porto+Alegre'); /* Imagem de placeholder atualizada */
+            background-size: cover;
+            background-position: center;
+        }
+        .cta-button {
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            filter: brightness(1.1);
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .map-container {
+            position: relative;
+            overflow: hidden;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            border-radius: 0.5rem; /* rounded-lg */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-md */
+        }
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    </style>
+
+    <!-- Schema.org Markup Otimizado -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TowingService",
+      "name": "Mano Guinchos",
+      "description": "Serviço de guincho 24 horas com base na Zona Norte, atendendo toda Porto Alegre e Região Metropolitana para carros, motos e utilitários.",
+      "telephone": "+5551997671932",
+      "email": "contato@manoguinchos.com.br",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Porto Alegre",
+        "addressRegion": "RS",
+        "postalCode": "91260-252",
+        "addressCountry": "BR"
+        "streetAddress": "Rua Trópicos, 39 - Protásio Alves"
+      },
+      "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 00:00-23:59", // 24/7
+      "image": "https://www.manoguinchos.com.br/imagem-logo-mano-guinchos.jpg", // SUBSTITUA PELA URL DO SEU LOGO OU IMAGEM PRINCIPAL
+      "url": "https://www.manoguinchos.com.br/",
+      "priceRange": "$", // Ajuste conforme sua faixa de preço (ex: $, $$, $$$)
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Porto Alegre"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Região Metropolitana de Porto Alegre"
+        },
+        {
+          "@type": "PostalAddress",
+          "addressLocality": "Porto Alegre",
+          "addressRegion": "RS",
+          "description": "Base de operações na Zona Norte de Porto Alegre"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Serviços de Guincho Mano Guinchos",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Guincho para Carros em Porto Alegre" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Guincho para Motos em Porto Alegre" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reboque Porto Alegre 24h" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Socorro Pane Seca Porto Alegre e Região" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Auxiliar de Partida Porto Alegre e Região" } }
+        ]
+      }
+    }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <header class="bg-slate-800 text-white shadow-md sticky top-0 z-50" role="banner">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex-shrink-0">
+                    <a href="/" class="text-2xl font-bold text-yellow-400">
+                        <i class="fas fa-truck-pickup mr-2"></i>Mano Guinchos
+                    </a>
+                </div>
+                <nav class="hidden md:flex space-x-6 items-center" role="navigation" aria-label="Menu Principal">
+                    <a href="#servicos" class="hover:text-yellow-400 transition-colors">Nossos Serviços</a>
+                    <a href="#area" class="hover:text-yellow-400 transition-colors">Área de Atuação</a>
+                    <a href="#sobre" class="hover:text-yellow-400 transition-colors">Sobre Nós</a>
+                    <a href="#contato" class="hover:text-yellow-400 transition-colors">Fale Conosco</a>
+                    <a href="tel:51997681932" class="bg-yellow-500 hover:bg-yellow-600 text-slate-900 font-semibold py-2 px-4 rounded-lg shadow-md cta-button flex items-center">
+                        <i class="fas fa-phone-alt mr-2"></i>Ligue Agora: (51) 99768-1932
+                    </a>
+                </nav>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-white focus:outline-none" aria-label="Abrir menu mobile" aria-expanded="false" aria-controls="mobile-menu">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="md:hidden hidden bg-slate-700" role="navigation" aria-label="Menu Mobile">
+            <a href="#servicos" class="block py-3 px-4 text-sm hover:bg-slate-600 hover:text-yellow-400 transition-colors">Nossos Serviços</a>
+            <a href="#area" class="block py-3 px-4 text-sm hover:bg-slate-600 hover:text-yellow-400 transition-colors">Área de Atuação</a>
+            <a href="#sobre" class="block py-3 px-4 text-sm hover:bg-slate-600 hover:text-yellow-400 transition-colors">Sobre Nós</a>
+            <a href="#contato" class="block py-3 px-4 text-sm hover:bg-slate-600 hover:text-yellow-400 transition-colors">Fale Conosco</a>
+            <a href="tel:51SEUTELEFONE" class="block py-3 px-4 text-sm bg-yellow-500 text-slate-900 font-semibold hover:bg-yellow-600 text-center cta-button">
+                <i class="fas fa-phone-alt mr-2"></i>Ligue Urgente: (51) 99768-1932
+            </a>
+            <a href="https://wa.me/5551997681932?text=Bom%20dia!%20Gostaria%20de%20um%20orçamento!" target="_blank" rel="noopener noreferrer" class="block py-3 px-4 text-sm bg-green-500 text-white font-semibold hover:bg-green-600 text-center cta-button mt-2">
+                <i class="fab fa-whatsapp mr-2"></i>WhatsApp Guincho Urgente
+            </a>
+        </div>
+    </header>
+
+    <main role="main">
+        <section class="hero-bg text-white py-20 md:py-32">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight">
+                    Guincho em <span class="text-yellow-400">Porto Alegre</span> e <span class="text-yellow-400">Região Metropolitana</span>? <br>Chame o <span class="text-yellow-400">Mano Guinchos 24h</span>!
+                </h1>
+                <p class="text-xl sm:text-2xl mb-4 max-w-3xl mx-auto">
+                    Atendimento rápido de guincho em todos os bairros de POA e cidades vizinhas. Socorro 24 horas para seu veículo, com base na Zona Norte para maior agilidade.
+                </p>
+                <p class="text-3xl sm:text-4xl font-bold text-yellow-400 mb-8">
+                    <i class="fas fa-phone-volume mr-2"></i>Ligue Agora para Guincho Urgente: (51) 99768-1932
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="tel:51997681932" class="bg-yellow-500 hover:bg-yellow-600 text-slate-900 font-bold py-4 px-8 rounded-lg text-lg shadow-xl cta-button flex items-center justify-center w-full sm:w-auto">
+                        <i class="fas fa-phone-alt mr-3"></i>Solicitar Guincho em POA 
+                    </a>
+                    <a href="https://wa.me/5551997681932?text=Bom%20dia!%20Gostaria%20de%20um%20orçamento!" target="_blank" rel="noopener noreferrer" class="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-lg shadow-xl cta-button flex items-center justify-center w-full sm:w-auto">
+                        <i class="fab fa-whatsapp mr-3"></i>Solicitar Guincho por Whatsapp
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos" aria-labelledby="servicos-heading" class="py-16 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 id="servicos-heading" class="text-3xl font-bold text-center mb-2 text-slate-700">Nossos Serviços de Guincho e Reboque</h2>
+                <p class="text-center text-slate-600 mb-12 max-w-2xl mx-auto">Atendimento completo para carros, motos e utilitários em toda Porto Alegre e Região Metropolitana, com agilidade a partir da nossa base na Zona Norte.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <article class="bg-slate-100 p-8 rounded-xl shadow-lg service-card transition-all duration-300">
+                        <div class="text-yellow-500 text-4xl mb-4 text-center"><i class="fas fa-car-crash" aria-hidden="true"></i></div>
+                        <h3 class="text-xl font-semibold mb-3 text-slate-700 text-center">Guincho para Carros</h3>
+                        <p class="text-slate-600 text-sm text-center">Reboque seguro para carros de passeio, SUVs e pickups em Porto Alegre. Atendimento ágil para panes ou acidentes.</p>
+                    </article>
+                    <article class="bg-slate-100 p-8 rounded-xl shadow-lg service-card transition-all duration-300">
+                        <div class="text-yellow-500 text-4xl mb-4 text-center"><i class="fas fa-motorcycle" aria-hidden="true"></i></div>
+                        <h3 class="text-xl font-semibold mb-3 text-slate-700 text-center">Guincho para Motos</h3>
+                        <p class="text-slate-600 text-sm text-center">Transporte especializado para motocicletas de todos os portes, com total segurança e cuidado, em toda POA e Grande POA.</p>
+                    </article>
+                    <article class="bg-slate-100 p-8 rounded-xl shadow-lg service-card transition-all duration-300">
+                        <div class="text-yellow-500 text-4xl mb-4 text-center"><i class="fas fa-gas-pump" aria-hidden="true"></i></div>
+                        <h3 class="text-xl font-semibold mb-3 text-slate-700 text-center">Socorro Pane Seca</h3>
+                        <p class="text-slate-600 text-sm text-center">Ficou sem combustível? Levamos até você ou rebocamos ao posto mais próximo em Porto Alegre e Região.</p>
+                    </article>
+                    <article class="bg-slate-100 p-8 rounded-xl shadow-lg service-card transition-all duration-300">
+                        <div class="text-yellow-500 text-4xl mb-4 text-center"><i class="fas fa-car-battery" aria-hidden="true"></i></div>
+                        <h3 class="text-xl font-semibold mb-3 text-slate-700 text-center">Auxiliar de Partida (Chupeta)</h3>
+                        <p class="text-slate-600 text-sm text-center">Bateria arriou? Oferecemos serviço de auxiliar de partida (chupeta) para seu veículo voltar a rodar rapidamente em toda POA.</p>
+                    </article>
+                    <article class="bg-slate-100 p-8 rounded-xl shadow-lg service-card transition-all duration-300">
+                        <div class="text-yellow-500 text-4xl mb-4 text-center"><i class="fas fa-tools" aria-hidden="true"></i></div>
+                        <h3 class="text-xl font-semibold mb-3 text-slate-700 text-center">Pequenos Reparos Veiculares</h3>
+                        <p class="text-slate-600 text-sm text-center">Em alguns casos, podemos realizar pequenos reparos no local para você seguir viagem (consulte disponibilidade em Porto Alegre).</p>
+                    </article>
+                     <article class="bg-slate-100 p-8 rounded-xl shadow-lg service-card transition-all duration-300">
+                        <div class="text-yellow-500 text-4xl mb-4 text-center"><i class="fas fa-truck-moving" aria-hidden="true"></i></div>
+                        <h3 class="text-xl font-semibold mb-3 text-slate-700 text-center">Transporte de Veículos</h3>
+                        <p class="text-slate-600 text-sm text-center">Levamos seu veículo de Porto Alegre para outras cidades ou estados com segurança e agilidade (serviço sob consulta).</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="area" aria-labelledby="area-heading" class="py-16 bg-slate-200">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 id="area-heading" class="text-3xl font-bold mb-4 text-slate-700">Atendemos Toda Porto Alegre e Região Metropolitana</h2>
+                <p class="text-slate-600 mb-8 max-w-2xl mx-auto">Com nossa base estratégica na <strong class="font-semibold">Zona Norte de Porto Alegre</strong>, garantimos um deslocamento eficiente para todos os bairros da capital (Zona Leste, Zona Sul, Centro) e para as principais cidades da Grande Porto Alegre, como <strong class="font-semibold">Canoas, Gravataí, Cachoeirinha, Alvorada, Viamão, Esteio, Sapucaia do Sul</strong>, entre outras.</p>
+                <div class="map-container rounded-lg shadow-md">
+                    <!-- Mapa focado em Porto Alegre, com bom zoom para mostrar a cidade e arredores -->
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d221081.4199999435!2d-51.34125740449171!3d-29.967408796125477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95199cd25856171d%3A0x9228296381951175!2sPorto%20Alegre%20-%20RS!5e0!3m2!1spt-BR!2sbr!4v1718582424483!5m2!1spt-BR!2sbr"
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade" 
+                        title="Mapa da Área de Cobertura do Guincho Mano Guinchos em Porto Alegre e Região Metropolitana">
+                    </iframe>
+                </div>
+                <p class="mt-8 text-slate-600">Seu veículo quebrou? Estamos prontos para ajudar em qualquer localidade de Porto Alegre e Região. <a href="#contato" class="text-yellow-600 hover:underline font-semibold">Chame o Mano Guinchos!</a></p>
+            </div>
+        </section>
+
+        <section id="sobre" aria-labelledby="sobre-heading" class="py-16 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 id="sobre-heading" class="text-3xl font-bold text-center mb-12 text-slate-700">Por que Chamar o Mano Guinchos em Porto Alegre?</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div class="p-6">
+                        <div class="text-yellow-600 text-5xl mb-4"><i class="fas fa-shipping-fast" aria-hidden="true"></i></div>
+                        <h3 class="text-xl font-semibold mb-2 text-slate-700">Agilidade a Partir da Zona Norte</h3>
+                        <p class="text-slate-600 text-sm">Nossa base na Zona Norte de POA permite um deslocamento rápido para toda a cidade e Região Metropolitana.</p>
+                    </div>
+                    <div class="p-6">
+                        <div class="text-yellow-600 text-5xl mb-4"><i class="far fa-clock" aria-hidden="true"></i></div>
+                        <h3 class="text-xl font-semibold mb-2 text-slate-700">Guincho 24 Horas, 7 Dias por Semana</h3>
+                        <p class="text-slate-600 text-sm">Estamos disponíveis dia e noite, incluindo feriados, para serviços de guincho em toda Porto Alegre e Grande POA.</p>
+                    </div>
+                    <div class="p-6">
+                        <div class="text-yellow-600 text-5xl mb-4"><i class="fas fa-shield-alt" aria-hidden="true"></i></div>
+                        <h3 class="text-xl font-semibold mb-2 text-slate-700">Serviço Confiável e Seguro</h3>
+                        <p class="text-slate-600 text-sm">Equipe experiente e frota preparada para transportar seu veículo com o máximo cuidado e profissionalismo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section aria-labelledby="depoimentos-heading" class="py-16 bg-slate-200">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 id="depoimentos-heading" class="text-3xl font-bold text-center mb-12 text-slate-700">O que Nossos Clientes de Porto Alegre Dizem</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <blockquote class="bg-white p-8 rounded-xl shadow-lg">
+                        <p class="text-slate-600 mb-4 italic">"Atendimento excelente do Mano Guinchos! Estava na Zona Sul e, mesmo com a base deles sendo na Zona Norte, chegaram rápido. Preço justo e muito profissionais."</p>
+                        <footer class="font-semibold text-slate-700">- Mariana P., Bairro Cavalhada, Porto Alegre</footer>
+                    </blockquote>
+                    <blockquote class="bg-white p-8 rounded-xl shadow-lg">
+                        <p class="text-slate-600 mb-4 italic">"Precisei de um guincho no centro de POA e o pessoal foi super atencioso e resolveu meu problema rapidinho. Recomendo!"</p>
+                        <footer class="font-semibold text-slate-700">- João V., Centro Histórico, Porto Alegre</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" aria-labelledby="contato-heading" class="py-20 bg-slate-700 text-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 id="contato-heading" class="text-3xl md:text-4xl font-bold mb-6">Precisa de Guincho em Porto Alegre ou Região? Ligue para o Mano Guinchos!</h2>
+                <p class="text-lg text-slate-300 mb-8 max-w-xl mx-auto">Não fique na mão! Entre em contato agora mesmo. Estamos prontos para te ajudar com reboque a qualquer hora do dia ou da noite.</p>
+                <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="tel:51997681932" class="bg-yellow-500 hover:bg-yellow-600 text-slate-900 font-bold py-4 px-8 rounded-lg text-lg shadow-xl cta-button flex items-center justify-center w-full sm:w-auto">
+                        <i class="fas fa-phone-alt mr-3"></i>Ligar para Guincho: (51) 99768-1932
+                    </a>
+                    <a href="https://wa.me/5551997681932?text=Bom%20dia!%20Gostaria%20de%20um%20orçamento!" target="_blank" rel="noopener noreferrer" class="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-lg shadow-xl cta-button flex items-center justify-center w-full sm:w-auto">
+                        <i class="fab fa-whatsapp mr-3"></i>Orçamento Guincho WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-800 text-slate-300 py-12" role="contentinfo">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h3 class="text-xl font-semibold text-yellow-400 mb-3">Mano Guinchos</h3>
+                    <p class="text-sm">Seu serviço de guincho de confiança em Porto Alegre (POA) e toda Região Metropolitana do RS. Atendimento ágil, seguro e com preço justo, com base na Zona Norte.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-white mb-3">Links Úteis</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#servicos" class="hover:text-yellow-400 transition-colors">Serviços de Guincho</a></li>
+                        <li><a href="#area" class="hover:text-yellow-400 transition-colors">Nossa Área de Atuação</a></li>
+                        <li><a href="#sobre" class="hover:text-yellow-400 transition-colors">Sobre a Mano Guinchos</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-white mb-3">Contato Rápido - Mano Guinchos</h3>
+                    <p class="text-sm mb-1"><i class="fas fa-phone-alt mr-2 text-yellow-400"></i><a href="tel:51SEUTELEFONE" class="hover:text-yellow-400">(51) 99768-1932</a> (WhatsApp)</p>
+                    <p class="text-sm mb-1"><i class="fas fa-envelope mr-2 text-yellow-400"></i><a href="mailto:contato@manoguinchos.com.br" class="hover:text-yellow-400">contato@manoguinchos.com.br</a></p>
+                    <p class="text-sm"><i class="fas fa-map-marker-alt mr-2 text-yellow-400"></i>Base na Zona Norte, Atendimento em toda Porto Alegre e Região Metropolitana</p>
+                    <div class="mt-4 flex space-x-4">
+                        <a href="https://www.facebook.com/profile.php?id=61575637122202" target="_blank" rel="noopener noreferrer" aria-label="Mano Guinchos no Facebook" class="text-slate-300 hover:text-yellow-400 text-xl"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.instagram.com/manosarmento/" target="_blank" rel="noopener noreferrer" aria-label="Mano Guinchos no Instagram" class="text-slate-300 hover:text-yellow-400 text-xl"><i class="fab fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-slate-700 pt-8 text-center text-sm">
+                <p>© <span id="currentYear"></span> Mano Guinchos - Todos os direitos reservados.</p>
+                <p>Guincho em Porto Alegre e Região Metropolitana. </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Script para menu mobile
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        if (mobileMenuButton && mobileMenu) {
+            mobileMenuButton.addEventListener('click', () => {
+                const isExpanded = mobileMenuButton.getAttribute('aria-expanded') === 'true' || false;
+                mobileMenuButton.setAttribute('aria-expanded', !isExpanded);
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
+
+        // Script para ano atual no rodapé
+        const currentYearElement = document.getElementById('currentYear');
+        if (currentYearElement) {
+            currentYearElement.textContent = new Date().getFullYear();
+        }
+
+        // Smooth scroll para links âncora
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                const header = document.querySelector('header'); // Seleciona o header
+                
+                if (targetElement && header) {
+                    const headerOffset = header.offsetHeight || 0;
+                    const elementPosition = targetElement.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: "smooth"
+                    });
+
+                    if (mobileMenu && !mobileMenu.classList.contains('hidden') && mobileMenuButton) {
+                        mobileMenu.classList.add('hidden');
+                        mobileMenuButton.setAttribute('aria-expanded', 'false');
+                    }
+                } else if (targetElement) { // Fallback se o header não for encontrado
+                     window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: "smooth"
+                    });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
